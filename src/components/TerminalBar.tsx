@@ -84,9 +84,6 @@ export default function TerminalInput() {
 
         addToHistory(newLines);
         
-        // ⏱️ THE PROCESSING DELAY: 
-        // Wait 800ms so the user can actually read the wget bar or "Navigating..." text 
-        // BEFORE the page changes and the useEffect wipes the history clean!
         setTimeout(() => {
           router.push(routes[cmd]);
         }, 800); 

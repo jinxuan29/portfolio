@@ -1,7 +1,6 @@
 export default function ResumePage() {
   return (
     <div className="max-w-5xl mx-auto animate-fade-in pb-10">
-      {/* Terminal-style Header */}
       <div className="flex items-center justify-between mb-4 border-b border-nord-3 pb-2">
         <div className="flex items-center gap-3">
           <span className="text-nord-14 font-bold">jinxuan@portfolio</span>
