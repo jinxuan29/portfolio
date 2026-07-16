@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-nord-0: #2E3440; /* Deepest background */
+  --color-nord-1: #3B4252; /* Darker background */
+  --color-nord-2: #434C5E; /* Dark background */
+  --color-nord-3: #4C566A; /* UI elements / Borders */
+  --color-nord-4: #D8DEE9; /* Main text */
+  --color-nord-5: #E5E9F0; /* Subdued text */
+  --color-nord-6: #ECEFF4; /* Brightest text */
+  --color-nord-7: #8FBCBB; /* Frost UI */
+  --color-nord-8: #88C0D0; /* Frost Primary (Ice Blue) */
+  --color-nord-9: #81A1C1; /* Frost Secondary */
+  --color-nord-10: #5E81AC; /* Frost Dark */
+  --color-nord-11: #BF616A; /* Red (Errors) */
+  --color-nord-12: #D08770; /* Orange (Warnings) */
+  --color-nord-13: #EBCB8B; /* Yellow */
+  --color-nord-14: #A3BE8C; /* Green (Success/Strings) */
+  --color-nord-15: #B48EAD; /* Purple (Keywords) */
+}
+
+body {
+  @apply bg-nord-0 text-nord-4 antialiased overflow-hidden;
+}
