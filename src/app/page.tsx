@@ -8,10 +8,10 @@ export default function Home() {
           Yen Jin Xuan
         </h1>
         <h2 className="text-xl md:text-2xl text-nord-4">
-          Security Researcher & Software Engineer
+          Cybersecurity Student | CTF Enthusiast | Sleep Deprived 
         </h2>
         <p className="text-nord-4 leading-relaxed max-w-2xl text-sm md:text-base">
-          Cybersecurity student with a strong foundation in software engineering and hands-on experience in vulnerability research, network analysis, and machine learning.
+          Always Tired, always curious, always getting distracted. <br></br> Too much to learn yet too little time.  
         </p>
       </header>
 
