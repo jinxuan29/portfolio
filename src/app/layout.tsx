@@ -9,7 +9,7 @@ import TerminalBar from "../components/TerminalBar";
 const firaCode = Fira_Code({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Yen Jin Xuan | Security Researcher",
+  title: "Yen Jin Xuan Portfolio",
   description: "Cybersecurity portfolio, CTF write-ups, and vulnerability research.",
 };
 
